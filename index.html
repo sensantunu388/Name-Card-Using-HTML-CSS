@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: gray;
+            padding: 45px;
+
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255);
+            height: 360px;
+            width: 150px;
+            border-radius: 7px;
+            box-shadow: 3px 4px 3px rgb(0, 0, 0);
+            padding: 0 0 10px 0;
+        }
+        .img{
+            padding: 5px;
+            
+        }
+        .img img{
+            border-radius: 7px;
+            
+        }
+        .capsule span{
+            border: 2px solid rgb(175, 163, 163);
+            border-radius: 16px;
+            font-size:9px;
+            padding: 0px 6px;
+            font-family: Poppins;
+        }
+        .capsule{
+            padding: 0 28px 0 5px;
+        }
+        .content p{
+            font-size: 10px;
+            padding: 7px;
+            color: gray;
+           font-family: Poppins;
+           font-weight: 700; 
+           text-align: left;
+
+        }
+        .content h2{
+            padding: 3px ;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-size: 19px;
+            
+        }
+        .content{
+            padding: 7px;
+            
+        }
+        .button{
+            text-align: center;
+           
+            
+        }
+        .button button{
+            padding: 4px 7px;
+            border-radius: 15px;
+            background-color: rgb(186, 186, 255);
+            font-family: poppins;
+            box-shadow: 2px 2px 2px rgb(182, 182, 182);
+            font-size: 9px;
+            margin-top: 3px;
+            color: rgb(0, 0, 164);
+            cursor: pointer;
+
+        }
+        .button button:hover{
+            background-color: rgb(18, 117, 238);
+            color: rgb(228, 228, 255);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="img">
+            <img width="140 px" height=" 114px" src="photo.png" alt="">
+        </div>
+       <div class="capsule">
+<span>Nature</span>
+<span>Lake</span>
+       </div>
+       <div class="content">
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt natus molestiae quod quidem rerum obcaecati aspernatur nobis?</p>
+       </div>
+       <div class="button">
+        <button>Read more</button>
+       </div>
+    </div>
+</body>
+
+</html>
